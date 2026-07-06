@@ -7,6 +7,7 @@ using namespace std;
 
 int primMST(int V, vector<vector<pair<int, int>>> adj) {
     vector<bool> inMST(V, false);
+    //min heap priority queue to store the edges with minimum weight
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
     int src = 0;
     pq.push({0, src});
