@@ -27,6 +27,7 @@
 *.exe
 *.out
 *.app
+/roman_to_int
 
 # VS Code
 .vscode/
